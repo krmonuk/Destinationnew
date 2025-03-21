@@ -1,0 +1,35 @@
+## RECSRecommendations Upload File,,,,,,,,,,,,,,
+## RECS''## RECS'' indicates a Recommendations pre-process header. Please do not remove these lines.,,,,,,,,,,,,,,
+## RECS,,,,,,,,,,,,,,
+## RECSUse this file to upload product display information to Recommendations. Each product has its own row. Each line must contain 19 values and if not all are filled a space should be left.,,,,,,,,,,,,,,
+## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'.,,,,,,,,,,,,,,
+## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations.,,,,,,,,,,,,,,
+## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.margin,entity.destinationCode,entity.sourceCode,entity.currency,entity.language,entity.sku,entity.date
+RUH-CDG-EN,FRANCE,riyadhair:kingdom-of-saudi-arabia,Bonjour Paris,https://s7g10.scene7.com/is/image/aviationservicesstage/paris,"3,100",discover-riyadh,500,0,CDG,RUH,SAR,en,RUH-CDG,12-12-2024
+JFK-CDG-EN,FRANCE,riyadhair:non-ksa,Bonjour Paris,https://s7g10.scene7.com/is/image/aviationservicesstage/paris,"3,100",discover-riyadh,500,0,CDG,JFK,SAR,en,JFK-CDG,06-12-2024
+CDG-RUH-EN,TURKEY,riyadhair:non-ksa,Majestic Istanbul,https://s7g10.scene7.com/is/image/aviationservicesstage/frankfrut,"1,450",discover-riyadh,500,0,RUH,CDG,SAR,en,CDG-RUH,08-12-2024
+RUH-BOM-EN,FRANCE,riyadhair:kingdom-of-saudi-arabia,Bonjour Paris,https://s7g10.scene7.com/is/image/aviationservicesstage/paris,"3,100",discover-riyadh,500,0,BOM,RUH,SAR,en,RUH-BOM,08-12-2024
+RUH-JFK-EN,UNITED ARAB EMIRATES,riyadhair:kingdom-of-saudi-arabia,Hala Dubai,https://s7g10.scene7.com/is/image/aviationservicesstage/uae,"1,230",discover-riyadh,500,0,JFK,RUH,SAR,en,RUH-JFK,10-12-2024
+CDG-JFK-EN,Ney York,riyadhair:non-ksa,New York is where the future comes to audition,https://s7g10.scene7.com/is/image/aviationservicesstage/new-york,54,discover-riyadh,500,0,JFK,CDG,SAR,en,CDG-JFK,10-12-2024
+RUH-CDG-AR,باريس,riyadhair:kingdom-of-saudi-arabia,عندما تكون في شك ، اذهب إلى باريس,https://s7g10.scene7.com/is/image/aviationservicesstage/paris-1,52,discover-riyadh,500,0,CDG,RUH,SAR,ar,RUH-CDG,10-12-2024
+JFK-CDG-AR,باريس,riyadhair:non-ksa,عندما تكون في شك ، اذهب إلى باريس,https://s7g10.scene7.com/is/image/aviationservicesstage/paris-1,61,discover-riyadh,500,0,CDG,JFK,SAR,ar,JFK-CDG,10-12-2024
+CDG-RUH-AR,الرياض,riyadhair:non-ksa,قلعة قديمة ترمز إلى توحيد المملكة العربية السعودية,https://s7g10.scene7.com/is/image/aviationservicesstage/riyadh,62,discover-riyadh,500,0,RUH,CDG,SAR,ar,CDG-RUH,06-12-2024
+RUH-BOM-AR,مومباي,riyadhair:kingdom-of-saudi-arabia,"مومباي، ""مدينة الأحلام""",https://s7g10.scene7.com/is/image/aviationservicesstage/mumbai,51,discover-riyadh,500,0,BOM,RUH,SAR,ar,RUH-BOM,12-12-2024
+RUH-JFK-AR,نِيويورْك,riyadhair:kingdom-of-saudi-arabia,متعة وأنشطة لا نهاية لها تنتظرك في نيويورك,https://s7g10.scene7.com/is/image/aviationservicesstage/new-york,64,discover-riyadh,500,0,JFK,RUH,SAR,ar,RUH-JFK,06-12-2024
+CDG-JFK-AR,نِيويورْك,riyadhair:non-ksa,نيويورك هي المكان الذي يأتي فيه المستقبل إلى الاختبار,https://s7g10.scene7.com/is/image/aviationservicesstage/new-york,57,discover-riyadh,500,0,JFK,CDG,SAR,ar,CDG-JFK,10-12-2024
+RUH-CAI-EN,Cairo,riyadhair:kingdom-of-saudi-arabia,Vibrant experience in the heart of Egypt,https://raw.githubusercontent.com/dsampang/mbi/main/dist/cairo.png,51,discover-riyadh,500,0,CAI,RUH,SAR,en,RUH-CAI,20-12-2024
+RUH-JED-EN,Jeddah,riyadhair:kingdom-of-saudi-arabia,Fun and endless activities await at Jeddah,https://raw.githubusercontent.com/dsampang/mbi/main/dist/jeddah.jpg,49,discover-riyadh,500,0,JED,RUH,SAR,en,RUH-JED,20-12-2024
+RUH-LHR-EN,TURKEY,riyadhair:kingdom-of-saudi-arabia,Majestic Istanbul,https://s7g10.scene7.com/is/image/aviationservicesstage/frankfrut,"1,450",discover-riyadh,500,0,LHR,RUH,SAR,en,RUH-JED,20-12-2024
+RUH-DXB-EN,Dubai,riyadhair:kingdom-of-saudi-arabia,"Going to Dubai, be back never",https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Dubai.jpg,46,discover-riyadh,500,0,DXB,RUH,SAR,en,RUH-DXB,20-12-2024
+DEL-SIN-EN,Singapore,riyadhair:non-ksa,"City lights, city sights - Singapore nights.",https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Singapore.jpg,62,discover-riyadh,500,0,SIN,DEL,SAR,en,SIN-DEL,20-12-2024
+JFK-DMM-EN,Dammam,riyadhair:non-ksa,Lost in Dammam's charm.,https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Dammam.jpg,69,discover-riyadh,500,0,DMM,JFK,SAR,en,JFK-DMM,20-12-2024
+DMM-KUL-EN,Malaysia,riyadhair:non-ksa,Malaysia’s sunrise: A new day in paradise.,https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Malaysia.jpg,70,discover-riyadh,500,0,KUL,DMM,SAR,en,DMM-KUL,20-12-2024
+LHR-DEL-EN,UNITED ARAB EMIRATES,riyadhair:non-ksa,Hala Dubai,https://s7g10.scene7.com/is/image/aviationservicesstage/uae,"1,230",discover-riyadh,500,0,DEL,LHR,SAR,en,LHR-DEL,20-12-2024
+RUH-CAI-AR,القاهرة,riyadhair:kingdom-of-saudi-arabia,تجربة نابضة بالحياة في قلب مصر,https://raw.githubusercontent.com/dsampang/mbi/main/dist/cairo.png,51,discover-riyadh,500,0,CAI,RUH,SAR,ar,RUH-CAI,20-12-2024
+RUH-JED-AR,جدة,riyadhair:kingdom-of-saudi-arabia,الأنشطة الممتعة التي لا نهاية لها في جدة,https://raw.githubusercontent.com/dsampang/mbi/main/dist/jeddah.jpg,49,discover-riyadh,500,0,JED,RUH,SAR,ar,RUH-JED,20-12-2024
+RUH-LHR-AR,لندن,riyadhair:kingdom-of-saudi-arabia,تجربة نابضة بالحياة في قلب لندن,https://raw.githubusercontent.com/dsampang/mbi/main/dist/london.png,69,discover-riyadh,500,0,LHR,RUH,SAR,ar,RUH-JED,20-12-2024
+RUH-DXB-AR,دبي,riyadhair:kingdom-of-saudi-arabia,الذهاب إلى دبي ، لن أعود أبدا,https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Dubai.jpg,46,discover-riyadh,500,0,DXB,RUH,SAR,ar,RUH-DXB,20-12-2024
+DEL-SIN-AR,سنغافورة,riyadhair:non-ksa,أضواء المدينة ، مشاهد المدينة - ليالي سنغافورة.,https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Singapore.jpg,62,discover-riyadh,500,0,SIN,DEL,SAR,ar,SIN-DEL,20-12-2024
+JFK-DMM-AR,الدمام,riyadhair:non-ksa,ضائع في سحر الدمام.,https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Dammam.jpg,69,discover-riyadh,500,0,DMM,JFK,SAR,ar,JFK-DMM,20-12-2024
+DMM-KUL-AR,ماليزيا,riyadhair:non-ksa,شروق الشمس في ماليزيا: يوم جديد في الجنة.,https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/Malaysia.jpg,70,discover-riyadh,500,0,KUL,DMM,SAR,ar,DMM-KUL,20-12-2024
+LHR-DEL-AR,نيودلهي,riyadhair:non-ksa,دلهي مدينة الأحلام ، حيث كل شيء ممكن.,https://raw.githubusercontent.com/krmonuk/DestinationKSA-NonKSA/refs/heads/main/New Delhi.jpg,86,discover-riyadh,500,0,DEL,LHR,SAR,ar,LHR-DEL,20-12-2024
